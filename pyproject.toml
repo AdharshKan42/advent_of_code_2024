@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "advent-of-code-2024"
+version = "0.1.0"
+description = "Adharsh's advent of code 2024"
+authors = ["Adharsh Kandula <adharsh.kandula@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11, <3.12"
+pathlib = "^1.0.1"
+
+[tool.poetry.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
